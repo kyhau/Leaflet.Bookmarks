@@ -7,10 +7,25 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/aratcliffe/Leaflet.contextmenu/master/dist/leaflet.contextmenu.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/w8r/Leaflet.Bookmarks/master/dist/leaflet.bookmarks.css">
+    <style type="text/css">
+    #map {
+        width: 100%;
+        height: 500px;
+        display: block;
+    }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <script type="text/javascript" src="https://cdn.rawgit.com/ded/reqwest/master/reqwest.min.js"></script>
+    <script type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/aratcliffe/Leaflet.contextmenu/master/dist/leaflet.contextmenu-src.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/w8r/Leaflet.Bookmarks/master/dist/Leaflet.Bookmarks.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -28,10 +43,12 @@
         </ul>
       </header>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h2>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Leaflet Bookmarks</h2>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<div id="map"></div>
 
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
@@ -66,6 +83,6 @@ $ git checkout gh-pages
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="javascripts/page.js"></script>
   </body>
 </html>
