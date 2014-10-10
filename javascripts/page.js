@@ -41,7 +41,7 @@
         // GET /bookmarks/
         getAllItems: function(callback) {
             reqwest({
-                url: '/data/bookmarks.json',
+                url: 'data/bookmarks.json',
                 type: 'json',
                 success: function(json) {
                     data = json;
