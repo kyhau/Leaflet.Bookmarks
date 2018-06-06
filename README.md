@@ -1,5 +1,20 @@
-Leaflet.Bookmarks
+Demo: Adding bookmark on map with link
 =================
+
+Forked from w8r/Leaflet.Bookmarks
+
+## Run on Windows
+
+```
+npm install
+npm run build
+npm start
+```
+
+Then on browser: http://127.0.0.1:3001/demo/
+
+--------------------------------------------------------------------------------------
+
 [![npm version](https://badge.fury.io/js/leaflet-bookmarks.svg)](http://badge.fury.io/js/leaflet-bookmarks)
 [![Bower version](https://badge.fury.io/bo/leaflet-bookmarks.svg)](http://badge.fury.io/bo/leaflet-bookmarks) [![CircleCI](https://circleci.com/gh/w8r/Leaflet.Bookmarks.svg?style=shield)](https://circleci.com/gh/w8r/Leaflet.Bookmarks)
 
