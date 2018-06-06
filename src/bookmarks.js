@@ -95,7 +95,7 @@ var Bookmarks = L.Control.extend( /**  @lends Bookmarks.prototype */ {
      *
      * @type {String}
      */
-    popupTemplate: '<div><h3>{{ name }}</h3><p>{{ latlng }}, {{ zoom }}</p></div>',
+    popupTemplate: '<div><h3>{{ name }}</h3><a href="https://jira_example.atlassian.net/browse/{{ name }}">{{ name }}</a><p>{{ latlng }}, {{ zoom }}</p></div>',
 
     /**
      * Prepare your bookmark data for template.
