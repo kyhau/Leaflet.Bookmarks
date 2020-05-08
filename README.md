@@ -1,7 +1,7 @@
 Demo: Adding bookmark on map with link
 =================
 
-Forked from w8r/Leaflet.Bookmarks
+**[kyhau](https://github.com/kyhau)**: My folk of [w8r/Leaflet.Bookmarks](https://github.com/w8r/Leaflet.Bookmarks). See [all changes here](https://github.com/kyhau/demo_add_bookmark_on_map_with_link/commits/master).
 
 ## Run on Windows
 
